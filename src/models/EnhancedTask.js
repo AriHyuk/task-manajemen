@@ -1,13 +1,3 @@
-/**
- * Enhanced Task Model - Task dengan fitur tambahan untuk Day 2
- * 
- * Fitur baru:
- * - Multi-user support (owner dan assignee)
- * - Categories dan tags
- * - Due dates dengan overdue detection
- * - Status yang lebih detail
- * - Time tracking
- */
 class EnhancedTask {
     constructor(title, description, ownerId, options = {}) {
         // Validasi input
